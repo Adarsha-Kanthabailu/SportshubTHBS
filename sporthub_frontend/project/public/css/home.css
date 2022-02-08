@@ -1,0 +1,263 @@
+.heder1{
+    margin-top: -15px;
+}
+.navbar{
+    height: 50px;
+}
+.svg{
+    width: 50px;
+    height: 50px;
+}
+.sublist{
+    color: black !important;
+    font-size: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.searchinput{
+    padding: 5px;
+    margin-top: 7px;
+    width: 250px;
+    font-size: 10px;
+    height: 25px;
+    border-radius: 5px;
+    border:  1px solid black;
+    padding-left: 20px;
+}
+.logo{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.searchbutton{
+    margin-top: 7px;
+    height: 25px;
+    width: 40px;
+    border: 1px solid black;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.lrm{
+    margin-left: -50px;
+    z-index: 1;
+    background-color: rgb(249, 249, 249);    
+}
+.nav-link{
+    color: black;
+}
+.he1{
+    height: 525px;
+}
+.bankdetails{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.bank{
+    width: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.acc{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.s1,.s2,.s3{
+    width: 33.3%;
+}
+.fol{
+    width: 20px;
+    height: 20px;
+}
+.card{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.s2{
+    margin-left: 100px;
+}
+.au{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+.card1{
+    width: 250px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid rgb(129, 129, 129);
+    
+}
+.card-img-top1{
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+}
+.card-title1{
+    font-size:18px;
+}
+.card-body1{
+    display: flex;
+    flex-direction: column;
+}
+.card-text1{
+    font-size: 16px;
+}
+.btn1{
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid rgb(255, 154, 22);
+    font-size: 18px;
+    background-color: rgb(255, 154, 22);
+    font-weight: 400;
+}
+.scorl{
+    overflow-x: auto;
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.scorl::-webkit-scrollbar{
+    display: none;
+}
+.align1{
+    display: flex;
+    flex-direction: row;
+}
+.h-100{
+    max-height: 365px;
+    z-index: -1 !important;
+}
+.h51{
+    font-size: 24px;
+    z-index: 1 !important;
+}
+
+.tag{
+    font-size: 16px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.bank{
+    width: 100px !important;
+    height: 60px;
+}
+.bcard-title1{
+    font-size: 12px;
+}
+.bcard-text1{
+    font-size: 8px;
+}
+.bbtn1{
+    width: 60px !important;
+    height: 25px !important;
+    font-size: 8px !important;
+}
+.tagdes{
+    font-size: 10px !important;
+    font-weight: 200;
+    margin-left: 3%;
+    color: rgb(186, 186, 186);
+}
+.im1{
+    width: 150px;
+    height: 130px;
+}
+.card-title1{
+    margin-top: 3px;
+    font-size: 10px !important;
+}
+.star{
+    height: 13px;
+    width: 13px;
+    margin-top: -10px;
+}
+.d2{
+    flex-direction: row;
+    display: flex;
+    margin-top: -5px;
+}
+.card-text1{
+    font-size: 6px;
+}
+.btn1{
+    margin-top: 2px;
+    font-size: 8px;
+    width: 60px;
+    border-radius: 2px !important;
+    height: 20px;
+}
+.bcard1{
+    width: 250px;
+}
+.bank{
+    margin-left: 10px;
+}
+h6{
+    font-size: 12px !important;
+}
+.link1{
+    color: black;
+    text-decoration: black;
+}
+.b11{
+    font-size: 24px;
+}
+.img1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    border-radius: 30px;
+    height: 365px;
+    width: 400px;
+}
+.flow1{
+    display: flex;
+    flex-direction: column;
+}
+.xe1{
+    margin: 3px;
+    width: 100px;
+    height: 25px;
+}
+.p1{
+    display: flex;
+    flex-direction: row;
+}
+.promo_inp{
+    padding: 10px;
+    height: 25px;
+    margin: 3px;
+    font-size: 10px;
+    width: 376px;
+    border: 1px solid black;
+}
+.float_one_line{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.headsignin, .headsignup{
+    width: 60px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1.5px solid rgb(245, 172, 44);
+    padding: 0px 10px;
+    z-index: 1;
+}
+.headsignin{
+    margin-right: -25px;
+    background-color: rgb(245, 172, 44);
+}
+.ltr{
+    margin-top: 100px;
+}

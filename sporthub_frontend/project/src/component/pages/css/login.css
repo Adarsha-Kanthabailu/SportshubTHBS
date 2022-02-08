@@ -1,0 +1,108 @@
+#lsloginform, #lssignupform{
+  min-width: 300px;
+  margin-left: 200px;
+  height: 350px;
+  margin-top: -60px;
+  background-color: #c6c6c6;
+  border-radius: 15px;
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+#lsheaderTitle{
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  padding: 15px 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.lsrow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  max-width: 100%;
+  
+}
+
+.lsrow input{
+  width: 80%;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 10px;
+  padding-left: 15px;
+}
+
+.lsrow button{
+  border-radius: 5px;
+  width: 40%;
+  height: 25px;
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
+  background: rgba(255,187,45);
+}
+.lslabel1{
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+  width: 90%;
+  align-items: flex-start !important;
+  margin-left: 40px;
+}
+.lsrow button:hover{
+  opacity: 0.8;
+}
+
+#lsfacebookIcon{
+  background-image:url("/home/adarsh/Desktop/reactjs/project/src/component/star/facebook-logo.png");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
+#lstwitterIcon{
+  background-image: url("/home/adarsh/Desktop/reactjs/project/src/component/star/twitter.png");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
+#lsgoogleIcon{
+  background-image: url("/home/adarsh/Desktop/reactjs/project/src/component/star/google.png");
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+}
+
+#lsiconGroup{
+  display: flex;
+  justify-content: center;
+  padding: 8px 0px;
+  margin-left: 40px;
+  
+}
+.lsorsigninwith{
+  text-align: center;
+}
+.lsclose{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.lggle{
+  height: 0px;
+  width: 0px;
+  margin-right: 100px;
+  padding: 0px !important;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.fblg{
+  width: 100px;
+}

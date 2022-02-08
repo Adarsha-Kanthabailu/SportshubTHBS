@@ -1,0 +1,63 @@
+.prcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.prleft_container{
+    width: 20%;
+    padding: 10px;
+    padding-left: 20px;
+    border-right: 1px solid rgb(208, 208, 208);
+    background-color: rgb(247, 246, 246);
+}
+.prpcss1{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.prright_container{
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(247, 246, 246);
+}
+.prpcss2{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+.prprofileimg{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.pr_img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.prullist{
+    display: flex;
+    flex-direction: row;
+}
+.prlist1{
+    padding: 5px;
+}
+.prullist{
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+.inputfield{
+    padding: 5px 10px;
+    font-size: 10px;
+    border: 1px solid rgb(167, 167, 167);
+    margin: 10px;
+}
+.save , .cancel{
+    border: 1.5px solid rgb(255, 166, 58);
+    padding: 1px 15px;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+.save{
+    background-color: rgb(255, 166, 58);
+}

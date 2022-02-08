@@ -1,0 +1,309 @@
+    /*---------------------------------------------*/
+    
+    a {
+        font-family: Montserrat-Regular;
+        font-size: 10px;
+        line-height: 1.7;
+        color: #666666;
+        margin: 0px;
+        transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+    }
+    
+    a:focus {
+        outline: none !important;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #57b846;
+    }
+    /*---------------------------------------------*/
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0px;
+    }
+    
+    p {
+        font-family: Montserrat-Regular;
+        font-size: 10px;
+        line-height: 1.7;
+        color: #666666;
+        margin: 0px;
+    }
+    
+    ul,
+    li {
+        margin: 0px;
+        list-style-type: none;
+    }
+    /*---------------------------------------------*/
+    
+    input {
+        outline: none;
+        border: none;
+    }
+    
+    textarea {
+        outline: none;
+        border: none;
+        resize: none;
+    }
+    
+    textarea:focus,
+    input:focus {
+        border-color: transparent !important;
+    }
+    
+    input::-webkit-input-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    input:-moz-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    input::-moz-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    input:-ms-input-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    textarea::-webkit-input-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    textarea:-moz-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    textarea::-moz-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    
+    textarea:-ms-input-placeholder {
+        color: #999999;
+        font-family: Montserrat-Regular;
+    }
+    /*---------------------------------------------*/
+    
+    button {
+        outline: none !important;
+        border: none;
+        background: transparent;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    iframe {
+        border: none !important;
+    }
+    
+    label {
+        position: absolute;
+        top: -20px;
+        font-size: 10px;
+    }
+    /*//////////////////////////////////////////////////////////////////
+[ Contact 1 ]*/
+    
+    .contact1 {
+        min-height: 100%;
+        padding: 15px;
+        background: -webkit-linear-gradient(left, #0885a9, #08c5a9, #0885a9);
+        background: -o-linear-gradient(left, #0885a9, #08c5a9, #0885a9);
+        background: -moz-linear-gradient(left, #0885a9, #08c5a9, #0885a9);
+        background: linear-gradient(left, #0885a9, #08c5a9, #0885a9);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container-contact1 {
+        background: rgb(171, 170, 170);
+        border-radius: 10px;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*------------------------------------------------------------------
+[  ]*/
+    
+    .contact1-pic {
+        width: 296px;
+    }
+    
+    .contact1-pic img {
+        max-width: 100%;
+    }
+    /*------------------------------------------------------------------
+[  ]*/
+    
+    .contact1-form {
+        width: 250px;
+    }
+    
+    .contact1-form-title {
+        display: block;
+        font-family: Montserrat-ExtraBold;
+        font-size: 20px;
+        color: #333333;
+        line-height: 1.2;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    input.input1 {
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        padding: 0 10px;
+    }
+    
+    input.input1+.shadow-input1 {
+        border-radius: 25px;
+    }
+    
+    textarea.input1 {
+
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px 8px;
+    }
+    
+    textarea.input1+.shadow-input1 {
+        border-radius: 5px;
+    }
+    /*---------------------------------------------*/
+    
+    .wrap-input1 {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+    
+    .input1 {
+        display: block;
+        background: #f6f6f6;
+        font-family: Montserrat;
+        font-size: 8px;
+        line-height: 1.5;
+        color: #111;
+        font-weight: 300;
+    }
+    
+    .shadow-input1 {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        height: 100%;
+    }
+    @-webkit-keyframes anim-shadow {
+        to {
+            box-shadow: 0px 0px 80px 30px;
+            opacity: 0;
+        }
+    }
+    
+    @keyframes anim-shadow {
+        to {
+            box-shadow: 0px 0px 80px 30px;
+            opacity: 0;
+        }
+    }
+    /*---------------------------------------------*/
+    
+    .container-contact1-form-btn {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contact1-form-btn {
+        height: 25px;
+        border-radius: 5px;
+        background: rgb(255, 154, 22);
+        font-size: 10px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+    
+    .contact1-form-btn:hover {
+        background: #f0a868;
+    }
+    /*------------------------------------------------------------------
+[ Responsive ]*/
+    
+    
+    @media (max-width: 768px) {
+        .container-contact1 {
+            padding: 15px;
+        }
+    }
+    .name{
+        font-size: 18px !important;
+        text-align: center;
+    }
+    .designation{
+        font-size: 8px !important;
+        text-align: center;
+    }
+    .fim{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .card2{
+        min-width: 150px !important;
+        padding: 5px 5px;
+        border: 1px solid rgb(167, 167, 167);
+        margin:0px 3px;
+        text-align: center;
+    }
+
+    .outpart{
+        display: flex;
+        flex-direction: row;
+    }
+    .part1{
+        width: 50%;
+    }
